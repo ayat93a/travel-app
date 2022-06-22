@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 
 import Nav from '../components/Nav'
 import Search from '../components/Search'
+import Slider from '../components/Slider'
 
 
 const index = () => {
@@ -13,6 +14,7 @@ const index = () => {
       <Hero />
       <Destination />
       <Search />
+      <Slider />
     </div>
   )
 }

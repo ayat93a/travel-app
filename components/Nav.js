@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
-import {AiOutlineSearch} from 'react-icons/ai'
-import {BsPerson} from 'react-icons/bs'
+import {BsPerson , BsHeart} from 'react-icons/bs'
 import {HiOutlineMenu} from 'react-icons/hi'
 import {FaFacebook } from 'react-icons/fa'
 import {AiOutlineTwitter , AiFillYoutube , AiOutlineClose} from 'react-icons/ai'
@@ -29,8 +28,9 @@ const Nav = () => {
         <li className='duration-150 ease-in hover:scale-110'>Book</li>
       </ul>
       <div className='hidden md:flex'>
-        <AiOutlineSearch size={20} className = 'mr-4' />
-        <BsPerson  size={20} className = 'mr-4' />
+        <BsHeart size={20} className = 'mr-4 hover:scale-125' />
+        <BsPerson  size={20} className = 'mr-4 hover:scale-125' />
+       
       </div> 
       {/* small devices */}
       <div className='z-20 md:hidden' onClick={handelNav} >
