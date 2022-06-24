@@ -51,7 +51,7 @@ const Search = () => {
           <div className='flex flex-col my-6'>
             <label>Destination</label>
             <select className='p-2 border rounded-md' >
-              <option value='none' selected disabled hidden>Caribbean's Best Beaches</option>
+              <option value='none' defaultValue>Caribbean's Best Beaches</option>
               <option >Grande Antigua</option>
               <option >Key West</option>
               <option >Maldives</option>

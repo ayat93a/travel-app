@@ -1,14 +1,14 @@
 import React from 'react'
-import borabora from '../assests/borabora.jpg'
-import borabora2 from '../assests/borabora2.jpg'
-import keywest from '../assests/keywest.jpg'
-import maldives from '../assests/maldives.jpg'
-import maldives2 from '../assests/maldives2.jpg'
+import borabora from '/home/ayat/travel-app/assests/borabora.jpg'
+import borabora2 from '/home/ayat/travel-app/assests/borabora2.jpg'
+import keywest from '/home/ayat/travel-app/assests/keywest.jpg'
+import maldives from '/home/ayat/travel-app/assests/maldives.jpg'
+import maldives2 from '/home/ayat/travel-app/assests/maldives2.jpg'
 import Image
  from 'next/image'
 const Destination = () => {
   return (
-    <div className='max-w-[1240px] h-screen mx-auto py-16 px-4 text-center'> 
+    <div className='max-w-[1240px] h-screen mx-auto py-16 px-4 text-center' id='destination'> 
     <div>
         <h1 className='my-2'>All-Inclusive Restore</h1>
         <p>On the Caribbean's Best Beaches</p>

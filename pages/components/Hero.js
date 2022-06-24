@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className='relative w-full h-screen'>
         <video className="object-cover w-full h-full" autoPlay loop muted>
-            <source src={require('../assests/beachVid.mp4')} type="video/mp4" />
+            <source src={require('/home/ayat/travel-app/assests/beachVid.mp4')} type="video/mp4" />
         </video>
        {/* https://github.com/jeremybarbet/next-videos    How to add video to next */}
        <div className='absolute top-0 left-0 w-full h-full bg-gray-900/30'></div>

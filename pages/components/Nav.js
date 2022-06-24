@@ -5,7 +5,7 @@ import {FaFacebook } from 'react-icons/fa'
 import {AiOutlineTwitter , AiFillYoutube , AiOutlineClose} from 'react-icons/ai'
 import {BsWhatsapp} from 'react-icons/bs'
 import {IoLogoInstagram} from 'react-icons/io'
-
+import Link from 'next/link'
 
 const Nav = () => {
   const [nav , setNav] = useState(false)
@@ -41,9 +41,14 @@ const Nav = () => {
       <div onClick={handelNav} className={nav ? 'absolute top-0 left-0 flex flex-col w-full px-4 text-black bg-gray-100/90 py-7 md:hidden z-10 ' : 'text-black z-10 md:hidden absolute left-[-100%] '}>
         
       <ul>
+        
         <h1 className='border-b'>BEACHES.</h1>
         <li className='border-b'>Home</li>
-        <li className='border-b'>Destination</li>
+        <li className='border-b'>
+        <Link  href='/#destination'>
+          <a> Destination </a>
+        </Link>
+        </li>
         <li className='border-b'>Travel</li>
         <li className='border-b'>Views</li>
         <li className='border-b'>Book</li>
