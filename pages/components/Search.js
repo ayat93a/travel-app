@@ -7,7 +7,7 @@ import {MdTravelExplore} from 'react-icons/md'
 const Search = () => {
   return (
 
-    <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-4 py-16 px-4 h-screen items-center'>
+    <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-4 py-16 px-4 h-screen items-center' id='search'>
       
       <div className='flex flex-col lg:col-span-2 justify-evenly'>
         

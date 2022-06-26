@@ -21,11 +21,19 @@ const Nav = () => {
       <h1 onClick={handelNav} className={logo ? 'hidden' : 'block'}>BEACHES.</h1>
       </div>
       <ul className='hidden md:flex'>
-        <li className='duration-150 ease-in hover:scale-110'>Home</li>
-        <li className='duration-150 ease-in hover:scale-110'>Destination</li>
-        <li className='duration-150 ease-in hover:scale-110'>Travel</li>
-        <li className='duration-150 ease-in hover:scale-110'>Views</li>
-        <li className='duration-150 ease-in hover:scale-110'>Book</li>
+      <Link  href='/'>
+      <li className='duration-150 ease-in hover:scale-110'>Home</li>
+      </Link>
+      <Link  href='/#Destination'>
+      <li className='duration-150 ease-in hover:scale-110'>Destination</li>
+      </Link>
+      <Link  href='/#search'>
+      <li className='duration-150 ease-in hover:scale-110'>Travel</li>
+      </Link>
+      <Link  href='/#search'>
+      <li className='duration-150 ease-in hover:scale-110'>Book</li>
+      </Link>
+      
       </ul>
       <div className='hidden md:flex'>
         <BsHeart size={20} className = 'mr-4 hover:scale-125' />
@@ -43,15 +51,19 @@ const Nav = () => {
       <ul>
         
         <h1 className='border-b'>BEACHES.</h1>
+        <Link  href='/'>
         <li className='border-b'>Home</li>
-        <li className='border-b'>
-        <Link  href='/#destination'>
-          <a> Destination </a>
         </Link>
-        </li>
+        <Link  href='/#Destination'>
+          <li className='border-b'> Destination </li>
+        </Link>
+        <Link  href='/#search'>
         <li className='border-b'>Travel</li>
-        <li className='border-b'>Views</li>
+        </Link>
+        <Link  href='/#search'>
         <li className='border-b'>Book</li>
+        </Link>
+        
         <div className='flex flex-col ease-in duration-50 '>
           <button className='my-6 hover:scale-105 '>Search</button>
           <button className='mb-6 hover:scale-105'>Account</button>
